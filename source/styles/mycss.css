@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Geologica+Mono&subset=greek,cyrillic');
+
+
+body {
+    font-family: Helvetica, serif;
+    background: linear-gradient(90deg, #1823a3 0%, #000000 100%, #fff 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(214, 215, 216);
+}
+
+.navbar-brand>img {
+    width: 40px;
+
+}
+
+.navbar-toggler {
+    background-color: rgb(214, 215, 216);
+}
+
+.sidebar,
+.btn-outline-primary {
+    color: aquamarine;
+    background: linear-gradient(270deg, #1823a3 0%, #000000 100%, #fff 100%);
+}
+
+.card {
+    color: aquamarine;
+    background: linear-gradient(270deg, #1823a3 0%, #000000 100%, #fff 100%);
+    text-align: center;
+}
+
+.card a,
+.footer-text a {
+    text-decoration: none;
+    color: aquamarine;
+	
+}
+
+.carousel-item {
+
+    max-height: 600px;
+
+}
+
+.carousel-inner h5 {
+    color: aquamarine;
+    font-size: 200%;
+    font-weight: bold;
+	text-shadow: 1px 0px 3px #0b5257;
+}
+
+.coll-text,
+.coll-anim,
+.button-anim {
+    color: aquamarine;
+    font-size: 200%;
+    font-weight: bold;
+
+}
+
+.carousel-inner p {
+    color: aquamarine;
+    font-weight: bold;
+	text-shadow: 1px 0px 3px #0b5257;
+}
+
+footer {
+    background: linear-gradient(270deg, #1823a3 0%, #000000 100%, #fff 100%);
+}
+
+.footer-text {
+    color: aquamarine;
+    margin: auto;
+
+}
+
+.button-anim {
+    animation: myAnimButton 2s ease 0s infinite normal forwards;
+}
+
+.coll-anim {
+    animation: myAnimColl 2s cubic-bezier(0.65, 0, 0.35, 1) 0s infinite normal none;
+}
+
+@keyframes myAnimButton {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+@keyframes myAnimColl {
+	0% {
+		opacity: 0.8;
+		transform: scale(0.2);
+	}
+
+	80% {
+		opacity: 0;
+		transform: scale(2.2);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(4.2);
+	}
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
